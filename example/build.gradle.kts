@@ -36,10 +36,10 @@ kotlin {
 
 compose.desktop {
     application {
-        mainClass = "ExampleKt"
+        mainClass = "uy.azinemanas.compoze.example.ExampleKt"
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "compose-1_2"
+            packageName = "compoze-example"
             packageVersion = "1.0.0"
         }
     }
